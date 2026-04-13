@@ -1,0 +1,12 @@
+flask>=2.3.0
+
+# For Raspberry Pi hardware
+pigpio>=1.78
+RPi.GPIO>=0.7.1
+
+# Optional (only if using MQ2 via MCP3008)
+spidev>=3.6
+
+# Crowd detection via webcam
+opencv-python-headless>=4.5.0
+numpy>=1.21.0
